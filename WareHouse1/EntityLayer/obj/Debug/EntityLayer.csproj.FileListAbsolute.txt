@@ -1,0 +1,9 @@
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Debug\EntityLayer.Properties.Resources.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Debug\EntityLayer.pdb

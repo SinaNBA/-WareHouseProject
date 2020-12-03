@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityType Name="ForushandeTbl">
+    <Key>
+      <PropertyRef Name="forushandecode" />
+    </Key>
+    <Property Name="forushandecode" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="family" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="tell" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="KalaTbl">
+    <Key>
+      <PropertyRef Name="kalacode" />
+    </Key>
+    <Property Name="kalacode" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="moshakhasat" Type="nvarchar" MaxLength="50" />
+    <Property Name="sherkat" Type="nvarchar" MaxLength="50" />
+    <Property Name="code" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="KhorujTbl">
+    <Key>
+      <PropertyRef Name="khorujcode" />
+    </Key>
+    <Property Name="khorujcode" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kalacode" Type="bigint" />
+    <Property Name="tahvilgirandecode" Type="bigint" />
+    <Property Name="tedad" Type="int" />
+    <Property Name="date" Type="nvarchar" MaxLength="50" />
+    <Property Name="datereal" Type="date" />
+    <Property Name="motesadicode" Type="bigint" />
+  </EntityType>
+  <EntityType Name="MotesadiTbl">
+    <Key>
+      <PropertyRef Name="motesadicode" />
+    </Key>
+    <Property Name="motesadicode" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="family" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="tell" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TahvilgirandeTbl">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="family" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="tell" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="VorudTbl">
+    <Key>
+      <PropertyRef Name="vorudcode" />
+    </Key>
+    <Property Name="vorudcode" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="forushandecode" Type="bigint" />
+    <Property Name="kalacode" Type="bigint" />
+    <Property Name="tedad" Type="int" />
+    <Property Name="date" Type="nvarchar" MaxLength="50" />
+    <Property Name="datereal" Type="date" />
+    <Property Name="motesadicode" Type="bigint" />
+  </EntityType>
+  <Association Name="FK_KhorujTbl_KalaTbl">
+    <End Role="KalaTbl" Type="Self.KalaTbl" Multiplicity="0..1" />
+    <End Role="KhorujTbl" Type="Self.KhorujTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KalaTbl">
+        <PropertyRef Name="kalacode" />
+      </Principal>
+      <Dependent Role="KhorujTbl">
+        <PropertyRef Name="kalacode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KhorujTbl_MotesadiTbl">
+    <End Role="MotesadiTbl" Type="Self.MotesadiTbl" Multiplicity="0..1" />
+    <End Role="KhorujTbl" Type="Self.KhorujTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MotesadiTbl">
+        <PropertyRef Name="motesadicode" />
+      </Principal>
+      <Dependent Role="KhorujTbl">
+        <PropertyRef Name="motesadicode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KhorujTbl_TahvilgirandeTbl">
+    <End Role="TahvilgirandeTbl" Type="Self.TahvilgirandeTbl" Multiplicity="0..1" />
+    <End Role="KhorujTbl" Type="Self.KhorujTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TahvilgirandeTbl">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="KhorujTbl">
+        <PropertyRef Name="tahvilgirandecode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VorudTbl_ForushandeTbl">
+    <End Role="ForushandeTbl" Type="Self.ForushandeTbl" Multiplicity="0..1" />
+    <End Role="VorudTbl" Type="Self.VorudTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ForushandeTbl">
+        <PropertyRef Name="forushandecode" />
+      </Principal>
+      <Dependent Role="VorudTbl">
+        <PropertyRef Name="forushandecode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VorudTbl_KalaTbl">
+    <End Role="KalaTbl" Type="Self.KalaTbl" Multiplicity="0..1" />
+    <End Role="VorudTbl" Type="Self.VorudTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KalaTbl">
+        <PropertyRef Name="kalacode" />
+      </Principal>
+      <Dependent Role="VorudTbl">
+        <PropertyRef Name="kalacode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VorudTbl_MotesadiTbl">
+    <End Role="MotesadiTbl" Type="Self.MotesadiTbl" Multiplicity="0..1" />
+    <End Role="VorudTbl" Type="Self.VorudTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MotesadiTbl">
+        <PropertyRef Name="motesadicode" />
+      </Principal>
+      <Dependent Role="VorudTbl">
+        <PropertyRef Name="motesadicode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StoreModelStoreContainer">
+    <EntitySet Name="ForushandeTbl" EntityType="Self.ForushandeTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KalaTbl" EntityType="Self.KalaTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KhorujTbl" EntityType="Self.KhorujTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MotesadiTbl" EntityType="Self.MotesadiTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TahvilgirandeTbl" EntityType="Self.TahvilgirandeTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VorudTbl" EntityType="Self.VorudTbl" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_KhorujTbl_KalaTbl" Association="Self.FK_KhorujTbl_KalaTbl">
+      <End Role="KalaTbl" EntitySet="KalaTbl" />
+      <End Role="KhorujTbl" EntitySet="KhorujTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KhorujTbl_MotesadiTbl" Association="Self.FK_KhorujTbl_MotesadiTbl">
+      <End Role="MotesadiTbl" EntitySet="MotesadiTbl" />
+      <End Role="KhorujTbl" EntitySet="KhorujTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KhorujTbl_TahvilgirandeTbl" Association="Self.FK_KhorujTbl_TahvilgirandeTbl">
+      <End Role="TahvilgirandeTbl" EntitySet="TahvilgirandeTbl" />
+      <End Role="KhorujTbl" EntitySet="KhorujTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VorudTbl_ForushandeTbl" Association="Self.FK_VorudTbl_ForushandeTbl">
+      <End Role="ForushandeTbl" EntitySet="ForushandeTbl" />
+      <End Role="VorudTbl" EntitySet="VorudTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VorudTbl_KalaTbl" Association="Self.FK_VorudTbl_KalaTbl">
+      <End Role="KalaTbl" EntitySet="KalaTbl" />
+      <End Role="VorudTbl" EntitySet="VorudTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VorudTbl_MotesadiTbl" Association="Self.FK_VorudTbl_MotesadiTbl">
+      <End Role="MotesadiTbl" EntitySet="MotesadiTbl" />
+      <End Role="VorudTbl" EntitySet="VorudTbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

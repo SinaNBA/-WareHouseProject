@@ -1,0 +1,7 @@
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\DataAccess\bin\Debug\EntityLayer.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\DataAccess\bin\Debug\EntityLayer.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\DataAccess\obj\Debug\DataAccess.pdb

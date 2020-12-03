@@ -1,0 +1,35 @@
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\bin\Release\EntityLayer.dll.config
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\bin\Release\EntityLayer.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\bin\Release\EntityLayer.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Release\EntityLayer.Properties.Resources.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Release\GenerateResource.read.1.tlog
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Release\GenerateResource.write.1.tlog
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Release\EntityLayer.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\EntityLayer\obj\Release\EntityLayer.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.dll.config
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.csprojResolveAssemblyReference.cache
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.Properties.Resources.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.csproj.GenerateResource.Cache
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.pdb
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.dll.config
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.dll
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.pdb
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.csprojAssemblyReference.cache
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.Properties.Resources.resources
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.csproj.GenerateResource.cache
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.dll
+D:\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.pdb
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.dll.config
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.dll
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityLayer.pdb
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityFramework.dll
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\bin\Release\EntityFramework.xml
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.Properties.Resources.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.csproj.GenerateResource.Cache
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.dll
+D:\My traning\Project's\WareHouseProject\WareHouse1\EntityLayer\obj\Release\EntityLayer.pdb

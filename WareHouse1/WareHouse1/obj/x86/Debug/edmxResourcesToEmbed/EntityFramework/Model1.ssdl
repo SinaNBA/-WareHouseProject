@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StoreModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="StoreModelStoreContainer">
+    <EntitySet Name="ForushandeTbl" EntityType="StoreModel.Store.ForushandeTbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KalaTbl" EntityType="StoreModel.Store.KalaTbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="KhorujTbl" EntityType="StoreModel.Store.KhorujTbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MotesadiTbl" EntityType="StoreModel.Store.MotesadiTbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="StoreModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TahvilgirandeTbl" EntityType="StoreModel.Store.TahvilgirandeTbl" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VorudTbl" EntityType="StoreModel.Store.VorudTbl" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_KhorujTbl_KalaTbl" Association="StoreModel.Store.FK_KhorujTbl_KalaTbl">
+      <End Role="KalaTbl" EntitySet="KalaTbl" />
+      <End Role="KhorujTbl" EntitySet="KhorujTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KhorujTbl_MotesadiTbl" Association="StoreModel.Store.FK_KhorujTbl_MotesadiTbl">
+      <End Role="MotesadiTbl" EntitySet="MotesadiTbl" />
+      <End Role="KhorujTbl" EntitySet="KhorujTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KhorujTbl_TahvilgirandeTbl" Association="StoreModel.Store.FK_KhorujTbl_TahvilgirandeTbl">
+      <End Role="TahvilgirandeTbl" EntitySet="TahvilgirandeTbl" />
+      <End Role="KhorujTbl" EntitySet="KhorujTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VorudTbl_ForushandeTbl" Association="StoreModel.Store.FK_VorudTbl_ForushandeTbl">
+      <End Role="ForushandeTbl" EntitySet="ForushandeTbl" />
+      <End Role="VorudTbl" EntitySet="VorudTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VorudTbl_KalaTbl" Association="StoreModel.Store.FK_VorudTbl_KalaTbl">
+      <End Role="KalaTbl" EntitySet="KalaTbl" />
+      <End Role="VorudTbl" EntitySet="VorudTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VorudTbl_MotesadiTbl" Association="StoreModel.Store.FK_VorudTbl_MotesadiTbl">
+      <End Role="MotesadiTbl" EntitySet="MotesadiTbl" />
+      <End Role="VorudTbl" EntitySet="VorudTbl" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ForushandeTbl">
+    <Key>
+      <PropertyRef Name="forushandecode" />
+    </Key>
+    <Property Name="forushandecode" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="family" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="tell" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="KalaTbl">
+    <Key>
+      <PropertyRef Name="kalacode" />
+    </Key>
+    <Property Name="kalacode" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="moshakhasat" Type="nvarchar" MaxLength="50" />
+    <Property Name="sherkat" Type="nvarchar" MaxLength="50" />
+    <Property Name="code" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="KhorujTbl">
+    <Key>
+      <PropertyRef Name="khorujcode" />
+    </Key>
+    <Property Name="khorujcode" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="kalacode" Type="bigint" />
+    <Property Name="tahvilgirandecode" Type="bigint" />
+    <Property Name="tedad" Type="int" />
+    <Property Name="date" Type="nvarchar" MaxLength="50" />
+    <Property Name="datereal" Type="date" />
+    <Property Name="motesadicode" Type="bigint" />
+  </EntityType>
+  <EntityType Name="MotesadiTbl">
+    <Key>
+      <PropertyRef Name="motesadicode" />
+    </Key>
+    <Property Name="motesadicode" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="family" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="tell" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TahvilgirandeTbl">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="family" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="tell" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="VorudTbl">
+    <Key>
+      <PropertyRef Name="vorudcode" />
+    </Key>
+    <Property Name="vorudcode" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="forushandecode" Type="bigint" />
+    <Property Name="kalacode" Type="bigint" />
+    <Property Name="tedad" Type="int" />
+    <Property Name="date" Type="nvarchar" MaxLength="50" />
+    <Property Name="datereal" Type="date" />
+    <Property Name="motesadicode" Type="bigint" />
+  </EntityType>
+  <Association Name="FK_KhorujTbl_KalaTbl">
+    <End Role="KalaTbl" Type="StoreModel.Store.KalaTbl" Multiplicity="0..1" />
+    <End Role="KhorujTbl" Type="StoreModel.Store.KhorujTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KalaTbl">
+        <PropertyRef Name="kalacode" />
+      </Principal>
+      <Dependent Role="KhorujTbl">
+        <PropertyRef Name="kalacode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KhorujTbl_MotesadiTbl">
+    <End Role="MotesadiTbl" Type="StoreModel.Store.MotesadiTbl" Multiplicity="0..1" />
+    <End Role="KhorujTbl" Type="StoreModel.Store.KhorujTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MotesadiTbl">
+        <PropertyRef Name="motesadicode" />
+      </Principal>
+      <Dependent Role="KhorujTbl">
+        <PropertyRef Name="motesadicode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KhorujTbl_TahvilgirandeTbl">
+    <End Role="TahvilgirandeTbl" Type="StoreModel.Store.TahvilgirandeTbl" Multiplicity="0..1" />
+    <End Role="KhorujTbl" Type="StoreModel.Store.KhorujTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TahvilgirandeTbl">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="KhorujTbl">
+        <PropertyRef Name="tahvilgirandecode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VorudTbl_ForushandeTbl">
+    <End Role="ForushandeTbl" Type="StoreModel.Store.ForushandeTbl" Multiplicity="0..1" />
+    <End Role="VorudTbl" Type="StoreModel.Store.VorudTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ForushandeTbl">
+        <PropertyRef Name="forushandecode" />
+      </Principal>
+      <Dependent Role="VorudTbl">
+        <PropertyRef Name="forushandecode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VorudTbl_KalaTbl">
+    <End Role="KalaTbl" Type="StoreModel.Store.KalaTbl" Multiplicity="0..1" />
+    <End Role="VorudTbl" Type="StoreModel.Store.VorudTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KalaTbl">
+        <PropertyRef Name="kalacode" />
+      </Principal>
+      <Dependent Role="VorudTbl">
+        <PropertyRef Name="kalacode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VorudTbl_MotesadiTbl">
+    <End Role="MotesadiTbl" Type="StoreModel.Store.MotesadiTbl" Multiplicity="0..1" />
+    <End Role="VorudTbl" Type="StoreModel.Store.VorudTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MotesadiTbl">
+        <PropertyRef Name="motesadicode" />
+      </Principal>
+      <Dependent Role="VorudTbl">
+        <PropertyRef Name="motesadicode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" ReturnType="int" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+</Schema>

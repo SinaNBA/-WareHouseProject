@@ -1,0 +1,31 @@
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\bin\Release\Logical.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\bin\Release\Logical.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\bin\Release\DataAccess.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\bin\Release\EntityLayer.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\bin\Release\DataAccess.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\bin\Release\EntityLayer.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\obj\Release\ResolveAssemblyReference.cache
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\obj\Release\Logical.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\Logical\obj\Release\Logical.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\bin\Release\Logical.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\bin\Release\Logical.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\bin\Release\DataAccess.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\bin\Release\EntityLayer.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\bin\Release\DataAccess.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\bin\Release\EntityLayer.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.csprojResolveAssemblyReference.cache
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.pdb
+D:\Project's\WareHouseProject\WareHouse1\Logical\bin\Release\Logical.dll
+D:\Project's\WareHouseProject\WareHouse1\Logical\bin\Release\Logical.pdb
+D:\Project's\WareHouseProject\WareHouse1\Logical\bin\Release\DataAccess.dll
+D:\Project's\WareHouseProject\WareHouse1\Logical\bin\Release\EntityLayer.dll
+D:\Project's\WareHouseProject\WareHouse1\Logical\bin\Release\DataAccess.pdb
+D:\Project's\WareHouseProject\WareHouse1\Logical\bin\Release\EntityLayer.pdb
+D:\Project's\WareHouseProject\WareHouse1\Logical\bin\Release\EntityLayer.dll.config
+D:\Project's\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.csprojAssemblyReference.cache
+D:\Project's\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.csproj.CoreCompileInputs.cache
+D:\Project's\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.csproj.CopyComplete
+D:\Project's\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.dll
+D:\Project's\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.pdb
+D:\My traning\Project's\WareHouseProject\WareHouse1\Logical\obj\Release\Logical.csprojResolveAssemblyReference.cache

@@ -1,0 +1,125 @@
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\WareHouse1.exe.config
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\WareHouse1.exe
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\WareHouse1.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\EntityLayer.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\Logical.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\DataAccess.dll
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\EntityLayer.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\Logical.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\bin\Release\DataAccess.pdb
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.EntryEditsForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.GoodsEditsForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.RemovalEditsForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.SellerEditsForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.TsupervisorEditsForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.WsupervisorEditsForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.SellerListForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.TransportationSupervisorListForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EntryForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.GoodsForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.EntryListForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.GoodsListForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.WarehouseSupervisorListForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.RemovalListForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.WarehouseSupervisorForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.RemovalForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.SellerForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.TransportationSupervisorForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.MainForm.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Properties.Resources.resources
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.exe
+C:\Users\sina\Documents\Visual Studio 2010\Projects\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\WareHouse1.exe.config
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.exe
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\WareHouse1.exe
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\WareHouse1.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\EntityLayer.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\Logical.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\DataAccess.dll
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\EntityLayer.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\Logical.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\bin\Release\DataAccess.pdb
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.csprojResolveAssemblyReference.cache
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.EntryEditsForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.GoodsEditsForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.RemovalEditsForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.SellerEditsForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.TsupervisorEditsForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.WsupervisorEditsForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.SellerListForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.TransportationSupervisorListForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EntryForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.GoodsForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.EntryListForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.GoodsListForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.WarehouseSupervisorListForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.RemovalListForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.WarehouseSupervisorForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.RemovalForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.SellerForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.TransportationSupervisorForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.MainForm.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Properties.Resources.resources
+E:\Developer's Toolkit\C#\Project\C#\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.csproj.GenerateResource.Cache
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\WareHouse1.exe.config
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\WareHouse1.exe
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\WareHouse1.pdb
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\EntityLayer.dll
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\Logical.dll
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\DataAccess.dll
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\EntityLayer.pdb
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\EntityLayer.dll.config
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\Logical.pdb
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\bin\Release\DataAccess.pdb
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.csprojAssemblyReference.cache
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.EntryEditsForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.GoodsEditsForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.RemovalEditsForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.SellerEditsForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.TsupervisorEditsForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.WsupervisorEditsForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.SellerListForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.TransportationSupervisorListForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EntryForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.GoodsForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.EntryListForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.GoodsListForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.WarehouseSupervisorListForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.RemovalListForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.WarehouseSupervisorForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.RemovalForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.SellerForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.TransportationSupervisorForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.MainForm.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Properties.Resources.resources
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.csproj.GenerateResource.cache
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.csproj.CoreCompileInputs.cache
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.csproj.CopyComplete
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.exe
+D:\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.pdb
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.csprojResolveAssemblyReference.cache
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.EntryEditsForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.GoodsEditsForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.RemovalEditsForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.SellerEditsForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.TsupervisorEditsForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EditForms.WsupervisorEditsForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.SellerListForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.TransportationSupervisorListForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.EntryForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.GoodsForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.EntryListForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.GoodsListForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.WarehouseSupervisorListForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.ListForms.RemovalListForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.WarehouseSupervisorForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.RemovalForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.SellerForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Forms.TransportationSupervisorForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.MainForm.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.Properties.Resources.resources
+D:\My traning\Project's\WareHouseProject\WareHouse1\WareHouse1\obj\x86\Release\WareHouse1.csproj.GenerateResource.Cache
